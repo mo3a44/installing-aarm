@@ -6,7 +6,7 @@
 install-arduino-robot-arm
 install source code
 
-git clone https://github.com/kira-Developer/arduino_robot_arm.git
+git clone https://github.com/smart-methods/arduino_robot_arm
 
 Dependencies
 
