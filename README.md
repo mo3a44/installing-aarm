@@ -65,7 +65,7 @@ $ rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200
 
 (Note: You may need to use ttyACM)
 Simulation
-
+ 
 Run the following instructions to use gazebo
 
 $ roslaunch robot_arm_pkg check_motors.launch
