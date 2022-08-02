@@ -15,25 +15,26 @@ run this instruction inside your workspace:
 ake sure you installed all these packages:
 
 for kinetic distro
-
+```
 $ sudo apt-get install ros-kinetic-moveit
 $ sudo apt-get install ros-kinetic-joint-state-publisher ros-kinetic-joint-state-publisher-gui
 $ sudo apt-get install ros-kinetic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-ros-control
-
+```
 for melodic distro
-
+```
 $ sudo apt-get install ros-melodic-moveit
 $ sudo apt-get install ros-melodic-joint-state-publisher ros-melodic-joint-state-publisher-gui
 $ sudo apt-get install ros-melodic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
-
+```
 for noetic distro
-
+```
 $ sudo apt-get install ros-noetic-moveit
 $ sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
 $ sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
 $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
+```
 
 Robot Arm
 
@@ -46,13 +47,13 @@ Robot initial positions
 positions
 Configuring Arduino with ROS
 
-    Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software to install run $ sudo ./install.sh after unzipping the folder
+   Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software to install run $ sudo ./install.sh after unzipping the folder
 
-    Launch the Arduino IDE
+   Launch the Arduino IDE
 
-    Install the arduino package and ros library http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
+   Install the arduino package and ros library http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
 
-    Make sure to change the port permission before uploading the Arduino code $ sudo chmod 777 /dev/ttyUSB0
+   Make sure to change the port permission before uploading the Arduino code $ sudo chmod 777 /dev/ttyUSB0
 
 Usage
 Controlling the robot arm by joint_state_publisher
