@@ -93,4 +93,5 @@ Run the following instruction to use gazebo
 ```
 $ roslaunch moveit_pkg demo_gazebo.launch
 ```
-https://cdn.discordapp.com/attachments/988094754829008936/1004076145957937222/Screenshot_from_2022-08-02_20-17-55.png
+![image](https://user-images.githubusercontent.com/93173060/182435959-393f951d-e9ba-4d64-b17d-44a3dec86557.png)
+
