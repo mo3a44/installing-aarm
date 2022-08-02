@@ -57,36 +57,39 @@ Configuring Arduino with ROS
 
 Usage
 Controlling the robot arm by joint_state_publisher
-
+```
 $ roslaunch robot_arm_pkg check_motors.launch
-
+```
 You can also connect with hardware by running:
-
+```
 $ rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200
-
+```
 (Note: You may need to use ttyACM)
 Simulation
  
 Run the following instructions to use gazebo
-
+```
 $ roslaunch robot_arm_pkg check_motors.launch
 $ roslaunch robot_arm_pkg check_motors_gazebo.launch
 $ rosrun robot_arm_pkg joint_states_to_gazebo.py
-
+```
 (You may need to change the permission)
-
+```
 $ sudo chmod +x ~/catkin_ws/src/arduino_robot_arm/robot_arm_pkg/scripts/joint_states_to_gazebo.py
+```
+
 Controlling the robot arm by Moveit and kinematics
-
+```
 $ roslaunch moveit_pkg demo.launch
-
+```
 You can also connect with hardware by running:
-
+```
 $ rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0 _baud:=115200
-
+```
 (Note: You may need to use ttyACM)
 Simulation
 
 Run the following instruction to use gazebo
-
+```
 $ roslaunch moveit_pkg demo_gazebo.launch
+```
